@@ -46,7 +46,7 @@ customer_df = spark.read.format("delta").load("abfss://6d2b74ce-60f3-410a-842c-2
 # CELL ********************
 
 customer_df = customer_df.withColumn(
-    "Category5",
+    "Category6",
     when(customer_df.Age < 28, "Young").otherwise("Old")
 )
 
