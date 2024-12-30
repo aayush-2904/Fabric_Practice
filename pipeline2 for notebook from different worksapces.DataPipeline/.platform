@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "pipeline2 for notebook from different worksapces"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "fe66fc2d-894f-4ef7-ba95-b0604c7ce203"
+  }
+}
